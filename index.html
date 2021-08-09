@@ -7,20 +7,37 @@
     <!--Styles-->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
     <title>Viajes Chile</title>
   </head>
   <body>
-
-<!--Header-->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-pink">
         <div class="container-fluid navbar-content">
           <a class="navbar-brand" href="#">
-            <img src="assets/img/logo-white.png" alt="" height="30px" class="d-inline-block align-text-top">
+            <img
+              src="assets/img/logo-white.png"
+              alt=""
+              height="30px"
+              class="d-inline-block align-text-top"
+            />
           </a>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse" id="navbarNav">
@@ -38,69 +55,142 @@
           </div>
         </div>
       </nav>
-</header>
+    </header>
 
-<main>
-
-</main>
-<!--Quienes somos-->
-
-<section id="quienes-somos">
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-
-            </div>
-            <div class="col">
-                
-            </div>
-            <div class="col">
-                
-            </div>
+    <main>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
         </div>
-    </div>
-</section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!--Quienes somos-->
 
-<!--Destacados-->
-<section id="destacados">
-
-    <div class="container">
+    <section id="quienes-somos">
+      <h2 class="titulo-sections">¿Quienes somos?</h2>
+      <div class="container">
         <div class="row">
-            <div class="col">
-
-            </div>
-            <div class="col">
-                
-            </div>
-            <div class="col">
-                
-            </div>
-            <div class="col">
-                
-            </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit, quam minus? Vitae optio eveniet expedita eius,
+              aliquid ex fugiat temporibus tempora error sit alias dolores
+              corrupti magnam recusandae odit repellat?
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique ipsam quasi neque sequi voluptatibus, est quis nobis
+              labore, nihil eaque vero voluptatem, iusto fuga vitae. Quaerat
+              repellat sed facere explicabo?
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              reiciendis porro eum, dolor delectus voluptas adipisci odit
+              recusandae saepe iste hic quidem nesciunt quam culpa, aspernatur
+              fuga earum voluptatum est!
+            </p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!--Contacto-->
-<section id="contacto">
+    <!--Destacados-->
+    <section id="destacados">
+      <h2 class="titulo-sections">Destacados</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <!--Contacto-->
+    <section id="contacto">
+      <h2 class="titulo-sections">Contacto</h2>
+    </section>
 
-<footer>
-
-</footer>
-
-
-
-
-
-
-
-
-
-
+    <footer></footer>
 
     <!--Javascript-->
     <script src="assets/js/main.js"></script>
