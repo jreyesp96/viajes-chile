@@ -1,11 +1,14 @@
 body {
   background: #000000 !important;
   color: #fff !important;
+  font-family: "Roboto";
 }
 .titulo-sections {
   text-align: center;
   border-bottom: 1px solid cyan;
   padding: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 .card {
   background: cyan !important;
