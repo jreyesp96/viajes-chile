@@ -5,9 +5,7 @@ body {
 .titulo-sections {
   text-align: center;
   border-bottom: 1px solid cyan;
-  width: 80%;
-  margin: auto;
-  padding-bottom: 12px;
+  padding: 12px;
 }
 .card {
   background: cyan !important;
