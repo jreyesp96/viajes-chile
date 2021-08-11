@@ -1,0 +1,4 @@
+//tooltips
+$(function(){
+    $('[title]').tooltip();
+});
