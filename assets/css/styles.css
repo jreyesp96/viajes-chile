@@ -6,7 +6,9 @@ VARIABLES
   --white: #ffffff;
   --black: #000000;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* 
 ESTILOS GENERALES
 cambia el color de fondo y el de las tipografias y declara la fuente 
